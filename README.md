@@ -3,6 +3,8 @@ Real-time security-constrained economic dispatch (i.e. optimal power flow). This
 
 Code environment: Python2
 
+Details are provided in the document "SCED_Manual_Developer_version.pdf".
+
 
 ## Citation:
 If you use these codes for your work, please cite the following papers:
@@ -10,8 +12,6 @@ If you use these codes for your work, please cite the following papers:
 Xingpeng Li and Kory W. Hedman, “Enhanced Energy Management System with Corrective Transmission Switching Strategy— Part I: Methodology,” *IEEE Transactions on Power Systems*, vol. 34, no. 6, pp. 4490-4502, Nov. 2019.
 
 Xingpeng Li and Kory W. Hedman, “Enhanced Energy Management System with Corrective Transmission Switching Strategy— Part II: Results and Discussion,” *IEEE Transactions on Power Systems*, vol. 34, no. 6, pp. 4503-4513, Nov. 2019.
-
-
 
 Paper1 website: https://rpglab.github.io/papers/XingpengLi-KWH-TPWRS-Part-I/
 

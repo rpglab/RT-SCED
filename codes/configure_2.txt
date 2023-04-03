@@ -1,0 +1,56 @@
+# This is the configure file that the program will first read.
+# The format should be: parameterName = parameterValue
+# For each line, anything after '//' or '#' will be ignored.
+
+solverName = glpk    # the name of the solver, glpk cbc 
+solverTimLimit = 1200    # termination condition: maximum time limit in second
+solverOptGap = 0.01    # termination condition: optimization gap 
+
+//---------- SCED settings ------------//
+isRunSCED = true # if set to false, then, the program will only generate data files.
+isPyomoDataFilesAvailable = true # if true, SCED will directly load them; if false, the program will first generate those files from initial real-case or generic case data files.
+                                 # Note that this parameter will be used ONLY when isRunSCED is set to true.
+generatePyomoDataFiles = false # true means the program will produce pyomo-format based data files while 'false' will generate normal format based files.  
+                              # Note that this parameter will be used ONLY when isRunSCED is set to false.
+needHeading = true   # it will matter only when the code is generating regular(non-pyomo) format data files.
+
+runSCEDTimeFrame = 5  # SCED will be run every 'runSCEDTimeFrame' (most likely five) minutes. This parameter is only used for determining the SCED period with the input time.
+blockPrice = 0.1      # unit is $, this parameter will matter ONLY when the code is generating pyomo input data file. It is used to linearize the slope cost curve.
+
+isPositivePgPmaxPminNeeded = false  # If TRUE: pg, pgmax, pgmin will be set to zero if they are negative.
+handle_CostCurveSegment_Pgmin = true # 
+
+//---------- Date and Time -----------//
+Year = 2016
+Month = 4
+Day = 9
+Hour = 0
+Minute = 0
+Second = 0
+
+//---------- Real case input data -----------//
+#pyomoDataFormatInputFileRC = pyomoDataForSmallRealCase.dat
+pyomoDataFormatInputFileRC = pyomoDataForRealCaseModel.dat # this parameter has to be in the same directory with the code.
+
+#pathRealCase = C:/Users/xingpeng/Python/SCED/data/Input/
+bidFileNameRC = bid_data_20160409.csv
+costCurveRampFileNameRC = costcurve_ramprate_20160409.csv
+hourlyDataFileNameRC = hourly_economic_min_max_20160409.csv
+interfaceFileNameRC = interface_20160409_orig.txt
+reserveReqFileNameRC = local_as_service_20160409.csv
+aolFileNameRC = aol_output.txt
+rawFileNameRC = PSS_DoR.RAW
+rtUnitStatusFileNameRC = rt_unit_status_fix_20160409.csv
+unitFileNameRC = Units.csv # if it is csv file. there should be only one line heading,; for excel format, it should be two lines heading
+
+//---------- Generic case input data -----------//
+#pyomoDataFormatInputFileGC = pyomoDataForSmallGenericCase.dat
+pyomoDataFormatInputFileGC = pyomoDataForGenericCaseModel.dat # this parameter has to be in the same directory with the code.
+
+#pathGenericCase = C:/Users/xingpeng/Python/SCED/data/Generic_Market_2/
+costCurveOutputFileNameGC = cost_curve.output.txt
+costCurveMultiRampFileNameGC = costcurve_ramprate_multi.output.txt
+costCurveSpinRampFileNameGC = costcurve_ramprate_multi.output.txt
+rawFileNameGC = pf.output.txt
+
+

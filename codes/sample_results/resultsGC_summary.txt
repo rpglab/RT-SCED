@@ -1,0 +1,24 @@
+****************** Summary ******************
+Objective value is:  914373.179623
+
+################## The following info is mainly for violations ##############
+
+**************** Branch ***********
+The flow on branch ??? is overloaded by 10.28 MW; its rateA is: 150.0 MW
+The flow on branch ??? is overloaded by 9.16 MW; its rateA is: 150.0 MW
+There are total 2 branches that are overloaded
+
+In total, there are 0 interface that are overloaded
+
+**************** Generator ***********
+Energy ramp-down limit of generator ?? is violated by 0.64 MW
+Energy ramp-down limit of generator ?? is violated by 0.0413333333333 MW
+
+# removed 
+
+The total spinning reserve shortage is 0.0 MW
+
+*************** Load ************
+The total shedded load is 0.0 MW
+
+*************** Contingency ************
