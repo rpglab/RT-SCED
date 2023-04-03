@@ -4,6 +4,7 @@ Created in 2016
 # Author: Xingpeng Li
 # Email: xplipower@gmail.com 
 
+Website: https://rpglab.github.io/resources/RT-SCED_Python/
 """
 
 import os

@@ -2,6 +2,8 @@
 Created in 2016
 
 # Author: Xingpeng Li
+
+Website: https://rpglab.github.io/resources/RT-SCED_Python/
 """
 
 import Diary

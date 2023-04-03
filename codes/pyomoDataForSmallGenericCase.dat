@@ -1,3 +1,5 @@
+# Website: https://rpglab.github.io/resources/RT-SCED_Python/
+
 param: BUS:   Bus_number Bus_kv Bus_va Bus_area  :=
   1  1  230.000000  -0.036753  1 
   2  2  230.000000  -0.025997  1 

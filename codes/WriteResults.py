@@ -2,6 +2,8 @@
 Created in 2016
 
 @author: Xingpeng Li (xplipower@gmail.com)
+
+Website: https://rpglab.github.io/resources/RT-SCED_Python/
 """
 
 from pyomo.environ import *

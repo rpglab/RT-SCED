@@ -1,3 +1,5 @@
+## Website: https://rpglab.github.io/resources/RT-SCED_Python/
+#
 # This is the configure file that the program will first read.
 # The format should be: parameterName = parameterValue
 # For each line, anything after '//' or '#' will be ignored.
